@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;  /* Organizes children in a column */
+  justify-content: flex-start; /* Aligns children to the top */
+  padding-top: 20px;  /* Give some space from the top */
+}
+
+.header {
+  margin: 0 15%;  /* 15% margin on either side */
+  font-size: 32px;  /* Increased font size */
+  font-weight: 600;  /* Bolder text */
+}
+
+.underline {
+  margin: 0 15%;  /* Ensure it matches header margin */
+  height: 4px;  /* Thicker line */
+  background-color: white;
+}
+
+.qualifiers {
+  margin-left: 15%;  /* Aligns with the left side of the header */
+  font-size: 20px;  /* Larger font size */
+  padding-bottom: 20px;  /* Adds space between the header and this text */
+  font-weight: 500;  /* Slightly bolder */
+}
