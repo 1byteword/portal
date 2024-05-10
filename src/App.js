@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import projectIcon from './icons/Eagle_50x50.ico'; // Ensure the path to your icon is correct
 
 function App() {
   return (
@@ -32,6 +33,20 @@ function App() {
           <p>React • Redux • Symfony • AWS</p>
         </div>
       </section>
+      <div className="projects">
+        <h2>Side Projects</h2>
+        <div className="project-category">
+          <div className="project-item">
+            <img src={projectIcon} alt="" className="project-item-icon"/>
+            <div>
+              <h4>Offline Nostalgia</h4>
+              <p>Generative art project around the offline era. Only collectible in person.</p>
+              <p>Solidity • P5.js • fully onchain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>© 2024 Azhan Khan</footer>
     </div>
   );
 }

@@ -8,50 +8,43 @@
   padding: 20px;
 }
 
-.App-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile-image {
-  width: 80px;
-  height: 80px; /* Adjust based on your actual image aspect ratio */
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.App-header h1 {
-  margin: 5px 0;
-}
-
-.App-header p {
-  margin: 5px 0;
-  color: gray;
-}
-
-.App-about, .App-work {
+.projects {
   width: 80%;
-  max-width: 550px; /* Adjust based on preference */
-  margin-bottom: 20px;
+  max-width: 800px; /* Adjust based on your preference */
 }
 
-.App-about h2, .App-work h2 {
-  margin-bottom: 10px;
+.project-category {
+  margin-top: 20px;
 }
 
-.App-about p, .App-work div {
-  margin-bottom: 10px;
+.project-icon {
+  width: 24px; /* Size of category icons */
+  vertical-align: middle;
 }
 
-.App-work h3 {
-  margin-top: 0;
+.project-item {
+  display: flex;
+  align-items: start;
+  margin-left: 20px;
 }
 
-.App-work p {
+.project-item-icon {
+  width: 20px; /* Size of project icons */
+  margin-right: 10px;
+}
+
+h2, h3, h4 {
   margin: 5px 0;
-  color: gray;
 }
 
+p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 20px;
+}
 
 @font-face {
   font-family: 'Neuropol';
