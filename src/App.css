@@ -1,29 +1,62 @@
 .App {
-  min-height: 100vh;
-  background-color: black;
+  font-family: Arial, sans-serif;
   color: white;
-  font-family: 'Raleway';
+  background-color: black;
   display: flex;
-  flex-direction: column;  /* Organizes children in a column */
-  justify-content: flex-start; /* Aligns children to the top */
-  padding-top: 20px;  /* Give some space from the top */
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.header {
-  margin: 0 15%;  /* 15% margin on either side */
-  font-size: 32px;  /* Increased font size */
-  font-weight: 600;  /* Bolder text */
+.App-header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.underline {
-  margin: 0 15%;  /* Ensure it matches header margin */
-  height: 4px;  /* Thicker line */
-  background-color: white;
+.profile-image {
+  width: 80px;
+  height: 80px; /* Adjust based on your actual image aspect ratio */
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-.qualifiers {
-  margin-left: 15%;  /* Aligns with the left side of the header */
-  font-size: 20px;  /* Larger font size */
-  padding-bottom: 20px;  /* Adds space between the header and this text */
-  font-weight: 500;  /* Slightly bolder */
+.App-header h1 {
+  margin: 5px 0;
+}
+
+.App-header p {
+  margin: 5px 0;
+  color: gray;
+}
+
+.App-about, .App-work {
+  width: 80%;
+  max-width: 550px; /* Adjust based on preference */
+  margin-bottom: 20px;
+}
+
+.App-about h2, .App-work h2 {
+  margin-bottom: 10px;
+}
+
+.App-about p, .App-work div {
+  margin-bottom: 10px;
+}
+
+.App-work h3 {
+  margin-top: 0;
+}
+
+.App-work p {
+  margin: 5px 0;
+  color: gray;
+}
+
+
+@font-face {
+  font-family: 'Neuropol';
+  src: url('./fonts/Cinzel-VariableFont_wght.ttf') format('woff'),
+        url('./fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
