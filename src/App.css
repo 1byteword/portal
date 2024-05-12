@@ -1,55 +1,78 @@
 .App {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font throughout the app */
   color: white;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 800px; /* Contain the width for a centered look */
+  margin: auto;
   padding: 20px;
 }
 
-.projects {
-  width: 80%;
-  max-width: 800px; /* Adjust based on your preference */
+.name {
+  font-family: 'Electrolize', sans-serif;  /* Fallback to cursive if Lobster doesn't load */
 }
 
-.project-category {
-  margin-top: 20px;
+.App-header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.project-icon {
-  width: 24px; /* Size of category icons */
-  vertical-align: middle;
+.profile-image {
+  width: 100px; /* Adjusted to fit the actual size */
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-.project-item {
-  display: flex;
-  align-items: start;
-  margin-left: 20px;
+.content {
+  width: 100%;
 }
 
-.project-item-icon {
-  width: 20px; /* Size of project icons */
-  margin-right: 10px;
+.App-about, .App-education, .App-work, .App-projects {
+  margin-bottom: 30px;
 }
 
-h2, h3, h4 {
-  margin: 5px 0;
+h1, h2, h3, p {
+  margin: 10px 0;
+}
+
+h1 {
+  font-weight: 700; /* Bold font for headers */
+}
+
+h2 {
+  color: #ccc; /* Lighter color for subtitles */
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 400; /* Normal font weight for sub-headers */
 }
 
 p {
-  margin: 4px 0;
   font-size: 0.9rem;
+  color: #aaa; /* Light gray for text for less emphasis */
 }
 
 footer {
   margin-top: 20px;
+  color: #666; /* Dim color for the footer */
+}
+
+
+@font-face {
+  font-family: 'Electrolize';
+  src: url('./fonts/Electrolize-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Neuropol';
-  src: url('./fonts/Cinzel-VariableFont_wght.ttf') format('woff'),
-        url('./fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Orbitron';
+  src: url('./fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
