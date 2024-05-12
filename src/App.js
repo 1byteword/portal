@@ -5,6 +5,9 @@ import profileImage from './icons/Eagle_50x50.ico';  // Update the path as neede
 function App() {
   return (
     <div className="App">
+      <video autoPlay muted loop playsInline className="background-video">
+        <source src="/videos/topo.mp4" type="video/mp4"/>
+      </video>
       <header className="App-header">
         <img src={profileImage} alt="Azhan Khan" className="profile-image"/>
         <h1 className="name">Azhan Khan</h1>
@@ -37,7 +40,7 @@ function App() {
             <h3>Software Engineer - Rivian Automotive</h3>
             <p>Palo Alto, CA</p>
             <p>TypeScript • AWS • Python • Terraform</p>
-            <p>Built end-to-end Anomaly Detection System using advanced ML techniques and cracked Grafana.</p>
+            <p>Built end-to-end Anomaly Detection System using advanced ML techniques. Saved the company a metric fuckton on Grafana Cloud licenses by engineering a workaround.</p>
           </div>
           <div>
             <h3>Front End Engineer – Freelance</h3>

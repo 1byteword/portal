@@ -1,7 +1,7 @@
 .App {
   font-family: 'Roboto', sans-serif; /* Apply Roboto font throughout the app */
   color: white;
-  background-color: black;
+  background-color: rgb(33, 33, 33);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,6 +60,16 @@ p {
 footer {
   margin-top: 20px;
   color: #666; /* Dim color for the footer */
+}
+
+.background-video {
+  position: fixed; /* Make the video fixed position */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Set width to viewport width */
+  height: 100vh; /* Set height to viewport height */
+  object-fit: cover; /* Ensure the video covers the full area without distortion */
+  z-index: -1; /* Keep the video behind all other content */
 }
 
 
