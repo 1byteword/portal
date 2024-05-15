@@ -1,12 +1,12 @@
 .App {
-  font-family: 'Roboto', sans-serif; /* Apply Roboto font throughout the app */
+  font-family: 'CommitMono', sans-serif; /* Apply Roboto font throughout the app */
   color: white;
   background-color: rgb(33, 33, 33);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 800px; /* Contain the width for a centered look */
+  max-width: 750px; /* Contain the width for a centered look */
   margin: auto;
   padding: 20px;
 }
@@ -81,8 +81,8 @@ footer {
 }
 
 @font-face {
-  font-family: 'Orbitron';
-  src: url('./fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+  font-family: 'CommitMono';
+  src: url('./fonts/CommitMono-400-Regular.otf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
