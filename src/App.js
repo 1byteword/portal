@@ -5,9 +5,6 @@ import profileImage from './icons/Eagle_50x50.ico';  // Update the path as neede
 function App() {
   return (
     <div className="App">
-      <video autoPlay muted loop playsInline className="background-video">
-        <source src="/videos/topo.mp4" type="video/mp4"/>
-      </video>
       <header className="App-header">
         <img src={profileImage} alt="Azhan Khan" className="profile-image"/>
         <h1 className="name">Azhan Khan</h1>

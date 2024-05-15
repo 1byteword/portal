@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-color: #272A36; /* Set the background color for the entire page */
+}
+
 .App {
   font-family: 'CommitMono', sans-serif; /* Apply Roboto font throughout the app */
   color: white;
