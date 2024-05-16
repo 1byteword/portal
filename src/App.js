@@ -20,7 +20,7 @@ function App() {
           <h2>Education</h2>
               <div>
                 <h3>Georgia Institute of Technology</h3>
-                <p>Bachelor of Science - Computer Science</p>
+                <p>Bachelor of Science in Computer Science</p>
                 <p>Took heavy coursework in Intelligence and Modeling/Simulation. Competed in ACM ICPC as a representative of Georgia Tech.</p>
                 <p>Computer Vision • Deep Learning • Systems and Networks • Computational Modeling Algorithms</p>
               </div>
