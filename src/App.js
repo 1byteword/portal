@@ -47,8 +47,8 @@ function App() {
           <div>
             <h3>DevOps Engineer - Financial Services Client</h3>
             <p>Remote</p>
-            <p>Azure/AWS AKS/EKS CI/CD pipelines setup from scratch. Build and maintain pipelines with integration of Github action runners, build and deploy microservices to Azure/AWS Public Cloud and Azure/AWS Gov cloud.</p>
-            <p>Vault • CICD • AWS</p>
+            <p>Azure/AWS, AKS/EKS, CI/CD pipelines setup from scratch. Built and maintain pipelines with integration of Github Actions runners, built and deployed microservices to Azure/AWS Public Cloud and Azure/AWS Gov Cloud.</p>
+            <p>Vault • CI/CD • AWS • Kubernetes</p>
           </div>
           <div>
             <h3>Software Engineer - Rivian Automotive</h3>
@@ -60,7 +60,7 @@ function App() {
             <h3>DevOps Engineer – Marriott International</h3>
             <p>Remote</p>
             <p>Built CI/CD pipelines for application and microservices using Github Actions and deployed applications in AKS and EKS.</p>
-            <p>Vault • CICD • AWS</p>
+            <p>Vault • CI/CD • AWS • Docker</p>
           </div>
         </section>
         <section className="App-projects">
