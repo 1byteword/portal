@@ -1,10 +1,26 @@
 import React from 'react';
 import './App.css';
 import profileImage from './icons/Eagle_50x50.ico';  // Update the path as needed
+import backgroundImage from './images/background.jpg'; 
 
 function App() {
   return (
     <div className="App">
+      <div 
+        className="background-image"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          zIndex: -1,
+        }}
+      />
       <header className="App-header">
         <img src={profileImage} alt="Azhan Khan" className="profile-image"/>
         <h1 className="name">Azhan Khan</h1>
