@@ -55,7 +55,7 @@ function App() {
             <p>Working with the National Security Innovation Network and the MIT AI Accelerator to create AI applications for the US Air Force's Joint All-Domain Operations.</p>
             <p>https://www.nsin.mil/  https://aia.mit.edu/</p>
             
-            <p>PyTorch • Endpoint Governance • TypeScript</p>
+            <p>PyTorch • Endpoint Governance • TypeScript • Docker • CI/CD</p>
           </div>
         </section>
       </div>
