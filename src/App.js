@@ -31,7 +31,7 @@ function App() {
           <div>
             <h3>DevOps Engineer - Financial Services Client</h3>
             <p>Remote</p>
-            <p>Azure/AWS AKS/EKS CI/CD pipelines setup from scratch. Build and maintain pipelines with integration of Github action runners, build and deploy microservices to Azure/AWS Public Cloud and Azure/AWS Gov cloud.*</p>
+            <p>Azure/AWS AKS/EKS CI/CD pipelines setup from scratch. Build and maintain pipelines with integration of Github action runners, build and deploy microservices to Azure/AWS Public Cloud and Azure/AWS Gov cloud.</p>
             <p>Vault • CICD • AWS</p>
           </div>
           <div>
@@ -52,10 +52,9 @@ function App() {
           <div>
             <h3>PROJECT NITEMRE</h3>
             <p>pronounced "nightmare"</p>
-            <p>Working with the National Security Innovation Network and the MIT AI Accelerator to create AI applications for the US Air Force's Joint All-Domain Operations.
-                https://www.nsin.mil/
-                https://aia.mit.edu/.
-            </p>
+            <p>Working with the National Security Innovation Network and the MIT AI Accelerator to create AI applications for the US Air Force's Joint All-Domain Operations.</p>
+            <p>https://www.nsin.mil/  https://aia.mit.edu/</p>
+            
             <p>PyTorch • Endpoint Governance • TypeScript</p>
           </div>
         </section>
