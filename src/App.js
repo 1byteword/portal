@@ -14,7 +14,7 @@ function App() {
       <div className="content">
         <section className="App-about">
           <h2>About</h2>
-          <p>I'm Azhan. I revel in crafting dynamic, innovative products from inception to completion. I am committed to creating user-friendly tools that evolve and enhance continually through user feedback. 🚀</p>
+          <p>I'm Azhan. I revel in crafting dynamic, innovative products from inception to completion. I am committed to creating user-friendly tools that evolve and enhance continually through user feedback. Always shipping. 🚀</p>
         </section>
         <section className="App-education">
           <h2>Education</h2>
@@ -48,14 +48,15 @@ function App() {
           </div>
         </section>
         <section className="App-projects">
-          <h2>Projects</h2>
+          <h2>Misc.</h2>
           <div>
-            <h3>Eagle Eye</h3>
+            <h3>PROJECT NITEMRE</h3>
+            <p>pronounced "nightmare"</p>
             <p>Working with the National Security Innovation Network and the MIT AI Accelerator to create AI applications for the US Air Force's Joint All-Domain Operations.
                 https://www.nsin.mil/
                 https://aia.mit.edu/.
             </p>
-            <p>PyTorch • FastAPI • TypeScript</p>
+            <p>PyTorch • Endpoint Governance • TypeScript</p>
           </div>
         </section>
       </div>
