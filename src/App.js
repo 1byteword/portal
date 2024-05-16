@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import profileImage from './icons/Eagle_50x50.ico';  // Update the path as needed
+import profileImage from './icons/profile.jpg';  // Update the path as needed
 import backgroundImage from './images/background.jpg'; 
 
 function App() {
