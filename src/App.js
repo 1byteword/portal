@@ -25,7 +25,7 @@ function App() {
         <img src={profileImage} alt="Azhan Khan" className="profile-image"/>
         <h1 className="name">Azhan Khan</h1>
         <p>DevOps-focused Software Engineer</p>
-        <p>1byteword@gmail.com</p>
+        <p><a href="mailto:1byteword@gmail.com">1byteword@gmail.com</a></p>
       </header>
       <div className="content">
         <section className="App-about">
@@ -47,7 +47,7 @@ function App() {
           <div>
             <h3>DevOps Engineer - Financial Services Client</h3>
             <p>Remote</p>
-            <p>Azure/AWS, AKS/EKS, CI/CD pipelines setup from scratch. Built and maintain pipelines with integration of Github Actions runners, built and deployed microservices to Azure/AWS Public Cloud and Azure/AWS Gov Cloud.</p>
+            <p>Azure/AWS, AKS/EKS, CI/CD pipelines setup from scratch. Built and maintain pipelines with integration of Github Actions runners, built and deployed microservices to Azure/AWS Public Cloud and Azure/AWS Gov cloud.</p>
             <p>Vault • CI/CD • AWS • Kubernetes</p>
           </div>
           <div>
