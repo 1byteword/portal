@@ -76,6 +76,23 @@ body {
   margin-bottom: 30px;
 }
 
+/* Add new styles for different text types */
+.title {
+  color: #ff7e5f; /* Color for titles */
+}
+
+.location {
+  color: #feb47b; /* Color for locations */
+}
+
+.skills {
+  color: #f3a683; /* Color for skills */
+}
+
+.body-text {
+  color: #aaa; /* Light gray for body text for less emphasis */
+}
+
 h1, h2, h3, p {
   margin: 10px 0;
 }
