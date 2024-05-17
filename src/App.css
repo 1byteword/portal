@@ -36,13 +36,13 @@
 /* Other styles remain unchanged */
 body {
   margin: 0;
-  background-color: #4f5260; /* Set the background color for the entire page */
+  background-color: #212228; /* Set the background color for the entire page */
 }
 
 .App {
   font-family: 'CommitMono', sans-serif; /* Apply Roboto font throughout the app */
   color: white;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(20, 20, 20);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@ h1, h2, h3, p {
 }
 
 h1 {
-  font-weight: 700; /* Bold font for headers */
+  font-weight: 900; /* Bold font for headers */
 }
 
 h2 {
