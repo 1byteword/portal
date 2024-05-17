@@ -36,7 +36,7 @@
 /* Other styles remain unchanged */
 body {
   margin: 0;
-  background-color: #272A36; /* Set the background color for the entire page */
+  background-color: #4f5260; /* Set the background color for the entire page */
 }
 
 .App {
@@ -78,7 +78,7 @@ body {
 
 /* Add new styles for different text types */
 .title {
-  color: #ff7e5f; /* Color for titles */
+  color: #ffffff; /* Color for titles */
 }
 
 .location {
@@ -86,7 +86,7 @@ body {
 }
 
 .skills {
-  color: #f3a683; /* Color for skills */
+  color: #00c50a; /* Color for skills */
 }
 
 .body-text {
