@@ -44,9 +44,8 @@ function App() {
             <h2 className="title">Education</h2>
             <div>
               <h3 className="title">Georgia Institute of Technology</h3>
-              <p className="body-text location">
+              <p className="body-text location flex-container">
                 <i>Bachelor of Science in Computer Science</i>
-                <span style={{ marginLeft: '300px', color: 'cyan' }}>~1yr</span>
               </p>
               <p className="body-text">Took heavy coursework in Intelligence and Modeling/Simulation. Competed in ACM ICPC as a representative of Georgia Tech.</p>
               <p className="skills">Computer Vision • Deep Learning • Systems and Networks • Computational Modeling Algorithms</p>
@@ -55,23 +54,25 @@ function App() {
           <section className="App-work" style={{ marginTop: '50px' }}>
             <h2 className="title">Work Experience</h2>
             <div>
-              <h3 className="title">DevOps Engineer - Financial Services Client </h3>
-              <p className="body-text location">
-              </p>
+              <h3 className="title flex-container">DevOps Engineer - Financial Services Client 
+                <span className="years">~1yr</span>
+              </h3>
+              <p className="body-text location"></p>
               <p className="body-text">Azure/AWS, AKS/EKS, CI/CD pipelines setup from scratch. Built and maintain pipelines with integration of Github Actions runners, built and deployed microservices to Azure/AWS Public Cloud and Azure/AWS Gov cloud.</p>
               <p className="skills">Vault • CI/CD • AWS • Kubernetes</p>
             </div>
             <div>
-              <h3 className="title">Software Engineer - Rivian Automotive</h3>
-              <p className="body-text location">
-                <span style={{ marginLeft: '300px', color: 'cyan' }}>~1yr</span>
-              </p>
+              <h3 className="title flex-container">Software Engineer - Rivian Automotive
+                <span className="years">~1yr</span>
+              </h3>
+              <p className="body-text location"></p>
               <p className="body-text">Built end-to-end Anomaly Detection System using advanced ML techniques. Saved the company a metric fuckton on Grafana Cloud licenses by engineering a workaround.</p>
               <p className="skills">TypeScript • AWS • Python • Terraform</p>
             </div>
             <div style={{ marginBottom: '30px' }}>
-              <h3 className="title">DevOps Engineer – Marriott International</h3>
-              
+              <h3 className="title flex-container">DevOps Engineer – Marriott International
+                <span className="years">~1yr</span>
+              </h3>
               <p className="body-text location">Remote</p>
               <p className="body-text">Built CI/CD pipelines for application and microservices using Github Actions and deployed applications in AKS and EKS.</p>
               <p className="skills">Vault • CI/CD • AWS • Docker</p>
