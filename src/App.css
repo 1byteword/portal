@@ -30,13 +30,17 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: -1; /* Ensure the background is behind other elements */
 }
 
 /* Other styles remain unchanged */
 body {
   margin: 0;
   background-color: #212228; /* Set the background color for the entire page */
+}
+
+#root {
+  position: relative;
 }
 
 .App {
@@ -50,6 +54,7 @@ body {
   max-width: 750px; /* Contain the width for a centered look */
   margin: auto;
   padding: 20px;
+  z-index: 1; /* Ensure the App content is above the background */
 }
 
 .name {
@@ -78,7 +83,7 @@ body {
 
 /* Add new styles for different text types */
 .title {
-  color: #ffffff; /* Color for titles */
+  color: #e3e3e3; /* Color for titles */
 }
 
 .location {
@@ -90,7 +95,7 @@ body {
 }
 
 .body-text {
-  color: #aaa; /* Light gray for body text for less emphasis */
+  color: #ffffff; /* Light gray for body text for less emphasis */
 }
 
 h1, h2, h3, p {
@@ -102,7 +107,7 @@ h1 {
 }
 
 h2 {
-  color: #ccc; /* Lighter color for subtitles */
+  color: #ff7c7c; /* Lighter color for subtitles */
   font-weight: 700;
 }
 
