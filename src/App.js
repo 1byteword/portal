@@ -66,7 +66,7 @@ function App() {
                 <span className="years">~1yr</span>
               </h3>
               <p className="body-text location"></p>
-              <p className="body-text">Built end-to-end Anomaly Detection System using advanced ML techniques. Saved the company a metric fuckton on Grafana Cloud licenses by engineering a workaround.</p>
+              <p className="body-text">Built end-to-end Anomaly Detection System using advanced ML techniques. Saved the company a metric boatload on Grafana Cloud licenses by engineering a workaround.</p>
               <p className="skills">TypeScript • AWS • Python • Terraform</p>
             </div>
             <div style={{ marginBottom: '30px' }}>
